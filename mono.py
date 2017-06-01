@@ -1,0 +1,6 @@
+a=("abcdefghijklmnopqrstuvwxyz")
+print(a)
+b=input("enter value:")
+d=str.maketrans(a,b)
+c=input("pt:")
+print(c.translate(d))
